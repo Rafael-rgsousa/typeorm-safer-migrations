@@ -41,7 +41,7 @@ This migration script assists in preserving data integrity during column type ch
 import { MigrationInterface, QueryRunner } from 'typeorm';
 import { SaferMigrations, TableBackupConfig } from '../safer-migrations';
 
-export class SoftDelete1714025584460 implements MigrationInterface {
+export class ExampleMigration implements MigrationInterface {
   name = 'MigrationName123123123';
 
   tableConfigs: TableBackupConfig[] = [
